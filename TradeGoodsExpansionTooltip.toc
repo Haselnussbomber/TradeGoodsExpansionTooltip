@@ -1,0 +1,13 @@
+## Interface: 80100
+## Title: Trade Goods Expansion Tooltip
+## Version: 1.0.0
+## Author: Haselnussbomber
+
+libs/LibStub/LibStub.lua
+libs/AceLocale-3.0/AceLocale-3.0.lua
+
+locale/en.lua
+locale/de.lua
+
+main.lua
+data.lua
