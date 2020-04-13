@@ -1245,7 +1245,9 @@ addon.items = {
 		174353, -- Questionable Meat
 		174327, -- Malformed Gnasher
 		174328, -- Aberrant Voidfin
+	},
 
+	[LE_EXPANSION_SHADOWLANDS] = {
 		-- 9.0.1
 		172934, -- Handful of Laestrite Bolts
 		172935, -- Porous Polishing Abrasive
