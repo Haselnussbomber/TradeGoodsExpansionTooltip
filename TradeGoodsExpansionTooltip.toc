@@ -1,4 +1,4 @@
-## Interface: 80300
+## Interface: 90001
 ## Title: Trade Goods Expansion Tooltip
 ## Notes: Adds a hint in the tooltip in which expansion a reagent was added to the game.
 ## Version: 1.0.1
