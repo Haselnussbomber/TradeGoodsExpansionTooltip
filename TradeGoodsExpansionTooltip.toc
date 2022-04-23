@@ -1,7 +1,7 @@
-## Interface: 90002
+## Interface: 90200
 ## Title: Trade Goods Expansion Tooltip
 ## Notes: Adds a hint in the tooltip in which expansion a reagent was added to the game.
-## Version: 1.0.2
+## Version: 1.0.3
 ## Author: Haselnussbomber
 
 libs/LibStub/LibStub.lua
