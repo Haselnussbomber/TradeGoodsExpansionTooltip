@@ -6,5 +6,5 @@ ignore:
   - libs/AceLocale-3.0/AceLocale-3.0.xml
 
 externals:
-  libs/LibStub: https://repos.wowace.com/wow/libstub/trunk
-  libs/AceLocale-3.0: https://repos.wowace.com/wow/ace3/trunk/AceLocale-3.0
+  libs/LibStub: https://repos.wowace.com/wow/libstub/trunk/
+  libs/AceLocale-3.0: https://repos.wowace.com/wow/ace3/trunk/AceLocale-3.0/
