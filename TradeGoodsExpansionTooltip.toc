@@ -1,4 +1,4 @@
-## Interface: 90200
+## Interface: 90205
 ## Title: Trade Goods Expansion Tooltip
 ## Notes: Adds a hint in the tooltip in which expansion a reagent was added to the game.
 ## Version: @project-version@
