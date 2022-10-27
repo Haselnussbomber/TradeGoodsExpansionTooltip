@@ -1,16 +1,7 @@
-## Interface: 90205
+## Interface: 100000
 ## Title: Trade Goods Expansion Tooltip
 ## Notes: Adds a hint in the tooltip in which expansion a reagent was added to the game.
 ## Version: @project-version@
 ## Author: Haselnussbomber
 
-#@no-lib-strip@
-libs/LibStub/LibStub.lua
-libs/AceLocale-3.0/AceLocale-3.0.lua
-#@end-no-lib-strip@
-
-locale/en.lua
-locale/de.lua
-
-main.lua
-data.lua
+TradeGoodsExpansionTooltip.lua

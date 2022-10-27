@@ -1,10 +1,4 @@
-enable-nolib-creation: yes
+manual-changelog: RELEASE_NOTES.md
 ignore:
   - README.md
-  - libs/LibStub/tests
-  - libs/LibStub/LibStub.toc
-  - libs/AceLocale-3.0/AceLocale-3.0.xml
-
-externals:
-  libs/LibStub: https://repos.wowace.com/wow/libstub/trunk/
-  libs/AceLocale-3.0: https://repos.wowace.com/wow/ace3/trunk/AceLocale-3.0/
+  - CHANGELOG.md
