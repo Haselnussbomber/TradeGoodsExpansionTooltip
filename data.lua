@@ -1,4 +1,4 @@
-local _, addon = ...
+local _, addon = ...;
 
 addon.items = {
 	[LE_EXPANSION_CLASSIC] = {
@@ -1572,5 +1572,453 @@ addon.items = {
 		189501, -- Protoform Tool
 		190388, -- Lupine Lattice
 		191781, -- Vestige of the Devourers
+	},
+
+	[LE_EXPANSION_DRAGONFLIGHT] = {
+		-- 10.0.0
+		188658, -- Draconium Ore
+		189143, -- Draconium Ore
+		189541, -- Primal Molten Alloy
+		189542, -- Primal Molten Alloy
+		189543, -- Primal Molten Alloy
+		190311, -- Draconium Ore
+		190312, -- Khaz'gorite Ore
+		190313, -- Khaz'gorite Ore
+		190314, -- Khaz'gorite Ore
+		190315, -- Rousing Earth
+		190316, -- Awakened Earth
+		190318, -- Perception!
+		190319, -- Resourceful!
+		190320, -- Rousing Fire
+		190321, -- Awakened Fire
+		190322, -- Rousing Order
+		190324, -- Awakened Order
+		190326, -- Rousing Air
+		190327, -- Awakened Air
+		190328, -- Rousing Frost
+		190329, -- Awakened Frost
+		190330, -- Rousing Decay
+		190331, -- Awakened Decay
+		190332, -- Sparking Catalyst
+		190394, -- Tyrivite Ore
+		190395, -- Tyrivite Ore
+		190396, -- Tyrivite Ore
+		190450, -- Awakened Blood
+		190451, -- Rousing Blood
+		190452, -- Primal Flux
+		190453, -- Spark of Ingenuity
+		190454, -- Primal Chaos
+		190455, -- Concentrated Primal Focus
+		190456, -- Artisan's Mettle
+		190530, -- Frostfire Alloy
+		190531, -- Frostfire Alloy
+		190532, -- Frostfire Alloy
+		190533, -- Black Dragon Seared Alloy
+		190534, -- Black Dragon Seared Alloy
+		190535, -- Black Dragon Seared Alloy
+		190536, -- Bloody Alloy
+		190537, -- Bloody Alloy
+		190538, -- Bloody Alloy
+		191250, -- Armor Spikes
+		191460, -- Hochenblume
+		191461, -- Hochenblume
+		191462, -- Hochenblume
+		191464, -- Saxifrage
+		191465, -- Saxifrage
+		191466, -- Saxifrage
+		191467, -- Bubble Poppy
+		191468, -- Bubble Poppy
+		191469, -- Bubble Poppy
+		191470, -- Writhebark
+		191471, -- Writhebark
+		191472, -- Writhebark
+		191474, -- Draconic Vial
+		191475, -- Draconic Vial
+		191476, -- Draconic Vial
+		191493, -- Primal Convergent
+		191494, -- Primal Convergent
+		191495, -- Primal Convergent
+		191496, -- Omnium Draconis
+		191497, -- Omnium Draconis
+		191498, -- Omnium Draconis
+		191511, -- Stable Fluidic Draconium
+		191512, -- Stable Fluidic Draconium
+		191513, -- Stable Fluidic Draconium
+		191514, -- Brood Salt
+		191515, -- Brood Salt
+		191516, -- Brood Salt
+		191517, -- Writhefire Oil
+		191518, -- Writhefire Oil
+		191519, -- Writhefire Oil
+		191520, -- Agitating Potion Augmentation
+		191521, -- Agitating Potion Augmentation
+		191522, -- Agitating Potion Augmentation
+		191523, -- Reactive Phial Embellishment
+		191524, -- Reactive Phial Embellishment
+		191525, -- Reactive Phial Embellishment
+		191526, -- Wisp of Tyr
+		191529, -- Essence of Tyr
+		191532, -- Potion Absorption Inhibitor
+		191533, -- Potion Absorption Inhibitor
+		191534, -- Potion Absorption Inhibitor
+		191570, -- Dragon's Alchemical Solution
+		191784, -- Dragon Shard of Knowledge
+		191872, -- Armor Spikes
+		191873, -- Armor Spikes
+		192095, -- Spool of Wilderthread
+		192096, -- Spool of Wilderthread
+		192097, -- Spool of Wilderthread
+		192552, -- Draconic Missive of the Fireflash
+		192553, -- Draconic Missive of the Fireflash
+		192554, -- Draconic Missive of the Fireflash
+		192833, -- Misshapen Filigree
+		192834, -- Shimmering Clasp
+		192835, -- Shimmering Clasp
+		192836, -- Shimmering Clasp
+		192837, -- Queen's Ruby
+		192838, -- Queen's Ruby
+		192839, -- Queen's Ruby
+		192840, -- Mystic Sapphire
+		192841, -- Mystic Sapphire
+		192842, -- Mystic Sapphire
+		192843, -- Vibrant Emerald
+		192844, -- Vibrant Emerald
+		192845, -- Vibrant Emerald
+		192846, -- Sundered Onyx
+		192847, -- Sundered Onyx
+		192848, -- Sundered Onyx
+		192849, -- Eternity Amber
+		192850, -- Eternity Amber
+		192851, -- Eternity Amber
+		192852, -- Alexstraszite
+		192853, -- Alexstraszite
+		192855, -- Alexstraszite
+		192856, -- Malygite
+		192857, -- Malygite
+		192858, -- Malygite
+		192859, -- Ysemerald
+		192860, -- Ysemerald
+		192861, -- Ysemerald
+		192862, -- Neltharite
+		192863, -- Neltharite
+		192865, -- Neltharite
+		192866, -- Nozdorite
+		192867, -- Nozdorite
+		192868, -- Nozdorite
+		192869, -- Illimited Diamond
+		192870, -- Illimited Diamond
+		192871, -- Illimited Diamond
+		192872, -- Fractured Glass
+		192876, -- Frameless Lens
+		192877, -- Frameless Lens
+		192878, -- Frameless Lens
+		192880, -- Crumbled Stone
+		192883, -- Polished Stone
+		192884, -- Polished Stone
+		192885, -- Polished Stone
+		192887, -- Elemental Harmony
+		192893, -- Jeweled Dragon's Heart
+		192894, -- Blotting Sand
+		192895, -- Blotting Sand
+		192896, -- Blotting Sand
+		192897, -- Pounce
+		192898, -- Pounce
+		192899, -- Pounce
+		193029, -- Projection Prism
+		193030, -- Projection Prism
+		193031, -- Projection Prism
+		193050, -- Tattered Wildercloth
+		193053, -- Duck Feather
+		193057, -- 10.0 Placeholder Enchanting Crystal
+		193208, -- Resilient Leather
+		193210, -- Resilient Leather
+		193211, -- Resilient Leather
+		193213, -- Adamant Scales
+		193214, -- Adamant Scales
+		193215, -- Adamant Scales
+		193216, -- Dense Hide
+		193217, -- Dense Hide
+		193218, -- Dense Hide
+		193222, -- Lustrous Scales
+		193223, -- Lustrous Scales
+		193224, -- Lustrous Scales
+		193226, -- Stonecrust Hide
+		193227, -- Stonecrust Hide
+		193228, -- Stonecrust Hide
+		193229, -- Mireslush Hide
+		193230, -- Mireslush Hide
+		193231, -- Mireslush Hide
+		193232, -- Deathchill Hide
+		193233, -- Deathchill Hide
+		193234, -- Deathchill Hide
+		193236, -- Bloodsoaked Hide
+		193237, -- Bloodsoaked Hide
+		193238, -- Bloodsoaked Hide
+		193239, -- Drygrate Scales
+		193240, -- Drygrate Scales
+		193241, -- Drygrate Scales
+		193242, -- Earthshine Scales
+		193243, -- Earthshine Scales
+		193244, -- Earthshine Scales
+		193245, -- Frostbite Scales
+		193246, -- Frostbite Scales
+		193247, -- Frostbite Scales
+		193248, -- Bloodwaxed Scales
+		193249, -- Bloodwaxed Scales
+		193250, -- Bloodwaxed Scales
+		193251, -- Crystalspine Fur
+		193252, -- Salamanther Scales
+		193253, -- Cacophonous Thunderscale
+		193254, -- Rockfang Leather
+		193255, -- Pristine Vorquin Horn
+		193256, -- Windsong Plumage
+		193258, -- Fire-Infused Hide
+		193259, -- Flawless Proto Dragon Scale
+		193261, -- Bite-Sized Morsel
+		193262, -- Exceptional Morsel
+		193360, -- Centaur's Trophy Necklace
+		193362, -- Fiery Soul
+		193368, -- Finely Ground Gemstones
+		193369, -- Finely Ground Gemstones
+		193370, -- Finely Ground Gemstones
+		193378, -- Elemental Harmony
+		193379, -- Elemental Harmony
+		193468, -- Fang Adornments
+		193469, -- Toxified Armor Patch
+		193551, -- Fang Adornments
+		193552, -- Toxified Armor Patch
+		193554, -- Fang Adornments
+		193555, -- Toxified Armor Patch
+		193640, -- Unstable Power Stone
+		193659, -- Ever-Decaying Spore
+		193682, -- [PH] Plains Feather
+		193702, -- 10.0 Dungeon - Optional Reagent
+		193737, -- 10.0 Dungeon - Optional Reagent
+		193749, -- 10.0 Dungeon - Optional Reagent
+		193774, -- Furyforged Plating
+		193798, -- Ancient Titan Alloy
+		193919, -- Frosty Soul
+		193920, -- Earthen Soul
+		193921, -- Airy Soul
+		193922, -- Wildercloth
+		193923, -- Decayed Wildercloth
+		193924, -- Frostbitten Wildercloth
+		193925, -- Singed Wildercloth
+		193926, -- Wildercloth Bolt
+		193927, -- Wildercloth Bolt
+		193928, -- Wildercloth Bolt
+		193929, -- Vibrant Wildercloth Bolt
+		193930, -- Vibrant Wildercloth Bolt
+		193931, -- Vibrant Wildercloth Bolt
+		193932, -- Bloody Wildercloth Bolt
+		193933, -- Bloody Wildercloth Bolt
+		193934, -- Bloody Wildercloth Bolt
+		193935, -- Chronocloth Bolt
+		193936, -- Chronocloth Bolt
+		193937, -- Chronocloth Bolt
+		193938, -- Azureweave Bolt
+		193939, -- Azureweave Bolt
+		193940, -- Azureweave Bolt
+		193941, -- Bronzed Grip Wrappings
+		193942, -- Bronzed Grip Wrappings
+		193943, -- Bronzed Grip Wrappings
+		193944, -- Blue Silken Lining
+		193945, -- Blue Silken Lining
+		193946, -- Blue Silken Lining
+		193950, -- Abrasive Polishing Cloth
+		193951, -- Abrasive Polishing Cloth
+		193952, -- Abrasive Polishing Cloth
+		193953, -- Vibrant Polishing Cloth
+		193954, -- Vibrant Polishing Cloth
+		193955, -- Vibrant Polishing Cloth
+		193956, -- Blazing Embroidery Thread
+		193957, -- Blazing Embroidery Thread
+		193958, -- Blazing Embroidery Thread
+		193959, -- Chromatic Embroidery Thread
+		193960, -- Chromatic Embroidery Thread
+		193961, -- Chromatic Embroidery Thread
+		193962, -- Shimmering Embroidery Thread
+		193963, -- Shimmering Embroidery Thread
+		193964, -- Shimmering Embroidery Thread
+		194123, -- Chromatic Dust
+		194124, -- Vibrant Shard
+		194545, -- Prismatic Ore
+		194566, -- Draconic Missive of the Feverflare
+		194567, -- Draconic Missive of the Feverflare
+		194568, -- Draconic Missive of the Feverflare
+		194569, -- Draconic Missive of the Aurora
+		194570, -- Draconic Missive of the Aurora
+		194571, -- Draconic Missive of the Aurora
+		194572, -- Draconic Missive of the Quickblade
+		194573, -- Draconic Missive of the Quickblade
+		194574, -- Draconic Missive of the Quickblade
+		194575, -- Draconic Missive of the Harmonious
+		194576, -- Draconic Missive of the Harmonious
+		194577, -- Draconic Missive of the Harmonious
+		194578, -- Draconic Missive of the Peerless
+		194579, -- Draconic Missive of the Peerless
+		194580, -- Draconic Missive of the Peerless
+		194727, -- Fiery Spirit
+		194728, -- Fiery Spirit
+		194729, -- Fiery Spirit
+		194751, -- Blazing Ink
+		194752, -- Blazing Ink
+		194754, -- Cosmic Ink
+		194755, -- Cosmic Ink
+		194756, -- Cosmic Ink
+		194758, -- Flourishing Ink
+		194760, -- Burnished Ink
+		194761, -- Burnished Ink
+		194767, -- Chilled Rune
+		194768, -- Chilled Rune
+		194784, -- Glittering Parchment
+		194785, -- Ace of Fire
+		194786, -- Two of Fire
+		194787, -- Three of Fire
+		194788, -- Four of Fire
+		194789, -- Five of Fire
+		194790, -- Six of Fire
+		194791, -- Seven of Frost
+		194792, -- Eight of Fire
+		194793, -- Ace of Frost
+		194794, -- Two of Frost
+		194795, -- Three of Frost
+		194796, -- Four of Frost
+		194797, -- Five of Frost
+		194798, -- Six of Frost
+		194799, -- Seven of Fire
+		194800, -- Eight of Frost
+		194801, -- Ace of Air
+		194802, -- Two of Air
+		194803, -- Three of Air
+		194804, -- Four of Air
+		194805, -- Five of Air
+		194806, -- Six of Air
+		194807, -- Seven of Air
+		194808, -- Eight of Air
+		194809, -- Ace of Earth
+		194810, -- Two of Earth
+		194811, -- Three of Earth
+		194812, -- Four of Earth
+		194813, -- Five of Earth
+		194814, -- Six of Earth
+		194815, -- Seven of Earth
+		194816, -- Eight of Earth
+		194824, -- Chirping Rune
+		194825, -- Chirping Rune
+		194826, -- Chirping Rune
+		194827, -- Bundle O' Cards: Dragon Isles
+		194846, -- Blazing Ink
+		194850, -- Flourishing Ink
+		194852, -- Flourishing Ink
+		194855, -- Burnished Ink
+		194856, -- Serene Ink
+		194857, -- Serene Ink
+		194858, -- Serene Ink
+		194859, -- Chilled Rune
+		194862, -- Runed Writhebark
+		194863, -- Runed Writhebark
+		194864, -- Runed Writhebark
+		194902, -- Ooey-Gooey Chocolate
+		194970, -- Islefin Dorado
+		197735, -- Finished Prototype Explorer's Barding
+		197736, -- Finished Prototype Regal Barding
+		197741, -- Maybe Meat
+		197742, -- Ribbed Mollusk Meat
+		197743, -- Duck Meat
+		197744, -- Hornswog Hunk
+		197745, -- Basilisk Eggs
+		197746, -- Bruffalon Flank
+		197747, -- Mighty Mammoth Ribs
+		197748, -- Burly Bear Meat
+		197749, -- Ohn'ahran Potato
+		197750, -- Three-Cheese Blend
+		197751, -- Pastry Packets
+		197752, -- Conveniently Packaged Ingredients
+		197753, -- Thaldraszian Cocoa Powder
+		197754, -- Salt Deposit
+		197755, -- Lava Beetle
+		197756, -- Pebbled Rock Salts
+		197757, -- Assorted Exotic Spices
+		197921, -- Primal Infusion
+		198046, -- Concentrated Primal Infusion
+		198048, -- Titan Training Matrix I
+		198056, -- Titan Training Matrix II
+		198058, -- Titan Training Matrix III
+		198059, -- Titan Training Matrix IV
+		198183, -- Handful of Tyrivite Bolts
+		198184, -- Handful of Tyrivite Bolts
+		198185, -- Handful of Tyrivite Bolts
+		198186, -- Shock-Spring Coil
+		198187, -- Shock-Spring Coil
+		198188, -- Shock-Spring Coil
+		198189, -- Everburning Blasting Powder
+		198190, -- Everburning Blasting Powder
+		198191, -- Everburning Blasting Powder
+		198192, -- Greased-Up Gears
+		198193, -- Greased-Up Gears
+		198194, -- Greased-Up Gears
+		198195, -- Arclight Capacitor
+		198196, -- Arclight Capacitor
+		198197, -- Arclight Capacitor
+		198198, -- Reinforced Machine Chassis
+		198199, -- Reinforced Machine Chassis
+		198200, -- Reinforced Machine Chassis
+		198201, -- Assorted Safety Fuses
+		198202, -- Assorted Safety Fuses
+		198203, -- Assorted Safety Fuses
+		198395, -- Dull Spined Clam
+		198397, -- Rainbow Pearl
+		198412, -- Serene Pigment
+		198413, -- Serene Pigment
+		198414, -- Serene Pigment
+		198415, -- Flourishing Pigment
+		198416, -- Flourishing Pigment
+		198417, -- Flourishing Pigment
+		198418, -- Blazing Pigment
+		198419, -- Blazing Pigment
+		198420, -- Blazing Pigment
+		198421, -- Shimmering Pigment
+		198422, -- Shimmering Pigment
+		198423, -- Shimmering Pigment
+		198534, -- Draconic Missive of Inspiration
+		198535, -- Draconic Missive of Inspiration
+		198536, -- Draconic Missive of Inspiration
+		198614, -- Soggy Clump of Darkmoon Cards
+		199344, -- Magma Thresher
+		199345, -- Rimefin Tuna
+		199346, -- Rotten Rimefin Tuna
+		200061, -- Prismatic Leaper
+		200074, -- Frosted Rimefin Tuna
+		200113, -- Resonant Crystal
+		200565, -- Draconic Missive of Resourcefulness
+		200566, -- Draconic Missive of Resourcefulness
+		200567, -- Draconic Missive of Resourcefulness
+		200568, -- Draconic Missive of Multicraft
+		200569, -- Draconic Missive of Multicraft
+		200570, -- Draconic Missive of Multicraft
+		200571, -- Draconic Missive of Crafting Speed
+		200572, -- Draconic Missive of Crafting Speed
+		200573, -- Draconic Missive of Crafting Speed
+		200574, -- Draconic Missive of Finesse
+		200575, -- Draconic Missive of Finesse
+		200576, -- Draconic Missive of Finesse
+		200577, -- Draconic Missive of Perception
+		200578, -- Draconic Missive of Perception
+		200579, -- Draconic Missive of Perception
+		200580, -- Draconic Missive of Deftness
+		200581, -- Draconic Missive of Deftness
+		200582, -- Draconic Missive of Deftness
+		200652, -- Alchemical Flavor Pocket
+		200686, -- Primal Focus
+		200860, -- Draconic Stopper
+		201399, -- Primal Bear Spine
+		201400, -- Aquatic Maw
+		201401, -- Large Plumed Feather
+		201402, -- Large Sturdy Femur
+		201403, -- Mastadon Tusk
+		201404, -- Primal Tallstrider Sinew
+		201405, -- Tuft of Primal Wool
+		201406, -- Glowing Titan Orb
 	}
-}
+};
