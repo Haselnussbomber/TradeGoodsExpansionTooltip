@@ -1,5 +1,9 @@
 # Changelog
 
+### [2.1] (2022-10-30)
+
+Fix for tooltips that don't return an item link.
+
 ### [2.0] (2022-10-28)
 
 Uses GetItemInfo() from now on, so it doesn't need any updates anymore unless WoW-API changes.

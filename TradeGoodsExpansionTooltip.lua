@@ -38,8 +38,10 @@ local function handler(tooltip, item)
 end
 
 local function handleTooltipSetItem(self)
-	local itemName, itemLink = self:GetItem();
-	handler(self, Item:CreateFromItemLink(itemLink));
+	local _, itemLink = self:GetItem();
+	if (itemLink) then
+		handler(self, Item:CreateFromItemLink(itemLink));
+	end
 end
 
 GameTooltip:HookScript("OnTooltipSetItem", handleTooltipSetItem);
