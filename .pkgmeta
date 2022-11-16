@@ -1,4 +1,5 @@
 manual-changelog: RELEASE_NOTES.md
 ignore:
+  - RELEASE_NOTES.md
   - README.md
   - CHANGELOG.md
