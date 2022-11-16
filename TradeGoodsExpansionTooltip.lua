@@ -37,15 +37,18 @@ local function handler(tooltip, item)
 	end);
 end
 
-local function handleTooltipSetItem(self)
-	local _, itemLink = self:GetItem();
+local function OnItem(tooltip)
+	if (not (tooltip == GameTooltip or tooltip == ItemRefTooltip)) then
+		return;
+	end
+
+	local _, itemLink = tooltip:GetItem();
 	if (itemLink) then
-		handler(self, Item:CreateFromItemLink(itemLink));
+		handler(tooltip, Item:CreateFromItemLink(itemLink));
 	end
 end
 
-GameTooltip:HookScript("OnTooltipSetItem", handleTooltipSetItem);
-ItemRefTooltip:HookScript("OnTooltipSetItem", handleTooltipSetItem);
+TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Item, OnItem);
 
 hooksecurefunc(GameTooltip, "SetRecipeReagentItem", function(self, recipeID, reagentIndex)
 	local itemLink = C_TradeSkillUI.GetRecipeFixedReagentItemLink(recipeID, reagentIndex);
