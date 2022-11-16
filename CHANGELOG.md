@@ -1,5 +1,9 @@
 # Changelog
 
+### [2.2] (2022-11-16)
+
+Fix for Dragonflight Pre-Patch.
+
 ### [2.1] (2022-10-30)
 
 Fix for tooltips that don't return an item link.
@@ -21,7 +25,9 @@ Support for recipe reagents.
 
 Added GitHub Workflow to create releases.
 
-[Unreleased]: https://github.com/Haselnussbomber/TradeGoodsExpansionTooltip/compare/v2.0...HEAD
+[Unreleased]: https://github.com/Haselnussbomber/TradeGoodsExpansionTooltip/compare/v2.2...HEAD
+[2.2]: https://github.com/Haselnussbomber/TradeGoodsExpansionTooltip/compare/v2.1...v2.2
+[2.1]: https://github.com/Haselnussbomber/TradeGoodsExpansionTooltip/compare/v2.0...v2.1
 [2.0]: https://github.com/Haselnussbomber/TradeGoodsExpansionTooltip/compare/v1.1...v2.0
 [1.1]: https://github.com/Haselnussbomber/TradeGoodsExpansionTooltip/compare/v1.0.4...v1.1
 [1.0.4]: https://github.com/Haselnussbomber/TradeGoodsExpansionTooltip/compare/v1.0.3-1...v1.0.4
